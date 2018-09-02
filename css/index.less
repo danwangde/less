@@ -1,0 +1,72 @@
+/*.border(@width:1px,@style:solid){
+  border: @width @style #033333;
+}
+.box1{
+  .border();
+}
+.box2{
+  .border(1px,dashed);
+}
+.box3{
+  .border(2px,dotted);
+}
+.box4{
+  .border();
+}*/
+
+//带默认参数的混合
+/*
+.border(@width:1px,@style:solid){
+  border: @arguments, #033333;
+}
+.box1{
+  .border();
+}
+.box2{
+  .border(1px,dashed);
+}
+.box3{
+  .border(2px,dotted);
+}
+.box4{
+  .border();
+}
+*/
+
+//模式匹配
+
+/*
+.border(top,@width:1px,@style:solid){
+  border-top: @width solid #033333;
+}
+.border(right,@width:1px,@style:solid){
+  border-right: @width solid #033333;
+}
+.border(bottom,@width:1px,@style:solid){
+  border-bottom: @width solid #033333;
+}
+.border(left,@width:1px,@style:solid){
+  border-left: @width solid #033333;
+}
+.border(@_){
+  width: 100px;
+}
+.box1{
+  .border(top);
+}
+.box2{
+  .border(right);
+}
+.box3{
+  .border(bottom,5px);
+}
+.box4{
+  .border(left);
+}*/
+//嵌套
+a{
+  text-decoration: none;
+  &:hover{
+    color:#033333;
+  }
+}

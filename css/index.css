@@ -1,0 +1,67 @@
+/*.border(@width:1px,@style:solid){
+  border: @width @style #033333;
+}
+.box1{
+  .border();
+}
+.box2{
+  .border(1px,dashed);
+}
+.box3{
+  .border(2px,dotted);
+}
+.box4{
+  .border();
+}*/
+/*
+.border(@width:1px,@style:solid){
+  border: @arguments, #033333;
+}
+.box1{
+  .border();
+}
+.box2{
+  .border(1px,dashed);
+}
+.box3{
+  .border(2px,dotted);
+}
+.box4{
+  .border();
+}
+*/
+/*
+.border(top,@width:1px,@style:solid){
+  border-top: @width solid #033333;
+}
+.border(right,@width:1px,@style:solid){
+  border-right: @width solid #033333;
+}
+.border(bottom,@width:1px,@style:solid){
+  border-bottom: @width solid #033333;
+}
+.border(left,@width:1px,@style:solid){
+  border-left: @width solid #033333;
+}
+.border(@_){
+  width: 100px;
+}
+.box1{
+  .border(top);
+}
+.box2{
+  .border(right);
+}
+.box3{
+  .border(bottom,5px);
+}
+.box4{
+  .border(left);
+}*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #033333;
+}
+/*# sourceMappingURL=index.css.map */
