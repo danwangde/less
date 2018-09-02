@@ -1,0 +1,22 @@
+body,
+p,
+ol,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #f000;
+}
+/*# sourceMappingURL=reset.css.map */
